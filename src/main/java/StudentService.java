@@ -54,7 +54,7 @@ public class StudentService {
     public void updateById() {
 
         getAllStudents();
-        System.out.println("Enter ID: ");
+        System.out.println("Enter the student ID to UPDATE:");
         int id = inp.nextInt();
         inp.nextLine();
 
